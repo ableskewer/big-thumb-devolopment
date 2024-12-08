@@ -1,0 +1,51 @@
+/* basic style rules - boxes wont go beyond their size*/
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+/* styling front page only */
+
+body {
+    background-color: rgb(212, 231, 208);
+    justify-content: center;
+    display: flex;
+}
+
+#fp-shape {
+    max-width: 1000px;
+}
+
+#fp-heading { 
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+#fp-box-container {
+    display: flex;
+    padding: 0 4% 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fp-gamebox {
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10% / 20%;
+    font-size: 20px;
+    height: 100px;
+    width: 180px;
+    margin: 20px 20px 20px;
+    text-align: center;
+    background-color: rgb(187, 224, 238);
+}
+
+.fp-gamebox:hover {
+    border-radius: 90% 50% / 16% 90%;
+    color: yellow;
+}

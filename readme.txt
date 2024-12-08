@@ -1,1 +1,1 @@
-Here you can read about big thumb project.
+Here you can read about big thumb projects.
