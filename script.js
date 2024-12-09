@@ -40,5 +40,5 @@ Technical Information:
     document.body.innerHTML = '';    
 
     const body = document.getElementById('body');
-    typeWriter(body, text, 50); // Adjust speed as needed (50ms per character)z
+    typeWriter(body, text, 30); // Adjust speed as needed (50ms per character)z
   });

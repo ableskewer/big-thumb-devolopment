@@ -7,6 +7,11 @@
     font-family: inter, sans-serif;
 }
 
+@font-face {
+    font-family: 'bdos-font';
+    src: url('./fonts/bdos-font.ttf') format('truetype');
+  }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -165,12 +170,12 @@ body {
 .bsod {
     background-color: #0000aa;
     color: #ffffff;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 16px;
+    font-family: bdos-font;
+    font-size: 36px;
     line-height: 1.5;
     padding: 20px;
     margin: 0;
-    display: flex;
+    display: block;
     justify-content: center;
     height: 100vh;
     white-space: pre-wrap;
