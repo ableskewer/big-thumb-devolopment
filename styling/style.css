@@ -4,12 +4,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: inter, sans-serif;
+    font-family: Inter, sans-serif;
 }
 
 @font-face {
-    font-family: 'bdos-font';
-    src: url('./fonts/bdos-font.ttf') format('truetype');
+    font-family: bdos-font;
+    src: url('https://github.com/ableskewer/big-thumb-devolopment/raw/refs/heads/main/fonts/bdos-font.ttf') format('truetype');
   }
 
 a {
@@ -74,7 +74,7 @@ body {
 
 .fp-gamebox {
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
     border-radius: 10% / 20%;
     font-size: 22px;
@@ -82,7 +82,6 @@ body {
     width: 240px;
     margin: 30px 50px 30px;
     text-align: center;
-    background-color: rgb(187, 224, 238);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,11 +91,11 @@ body {
 
 
 #box1:hover {
-    background-color: rgb(147, 170, 162);
-    opacity: 55%;
+    background-color: rgb(184, 216, 195);
+    opacity: 95%;
 }
 #box1 {
-    background-color: rgb(158, 158, 118);
+    background-color: rgb(147, 190, 162);
 }
 
 #box1 a {
@@ -109,15 +108,19 @@ body {
 
 #box2 {
     opacity: 1;
+    background-color: rgb(155, 209, 209);
+    color: rgb(155, 209, 209);
 }
 
 #box2:hover {
-    opacity: 0;
+    border-color: rgb(180, 190, 178);
+    background: rgb(180, 190, 178);
+    color: black;
 }
 
 #box3 {
     opacity: 0;
-    transition: opacity 2s ease;
+    transition: opacity 1.5s ease;
     background-color: rgb(171, 241, 218);
 }
 
@@ -170,8 +173,8 @@ body {
 .bsod {
     background-color: #0000aa;
     color: #ffffff;
-    font-family: bdos-font;
-    font-size: 36px;
+    font-family: 'VT323', monospace;
+    font-size: 16px;
     line-height: 1.5;
     padding: 20px;
     margin: 0;
@@ -179,16 +182,19 @@ body {
     justify-content: center;
     height: 100vh;
     white-space: pre-wrap;
-    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 75%;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #box6 {
     opacity: 0;
-    background-color: yellow;
+    background-color: rgb(173, 173, 93);
+    font-family: condensed+roboto, inter;
 }
 
 #box6:hover {

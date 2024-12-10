@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
     setTimeout(() => {
         const box = document.getElementById('box5');
         box.style.opacity = 1;
-    }, 5000);
+    }, 4000);
 });
 
 // interacting with box5 creates a bsod simulation
@@ -40,5 +40,5 @@ Technical Information:
     document.body.innerHTML = '';    
 
     const body = document.getElementById('body');
-    typeWriter(body, text, 30); // Adjust speed as needed (50ms per character)z
+    typeWriter(body, text, 10);
   });
