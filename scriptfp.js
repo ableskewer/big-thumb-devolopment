@@ -39,6 +39,6 @@ Technical Information:
 
     document.body.innerHTML = '';    
 
-    const body = document.getElementById('body');
+    const body = document.getElementById('fpbody');
     typeWriter(body, text, 10);
   });

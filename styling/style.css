@@ -19,7 +19,7 @@ a {
 
 /* styling front page only */
 
-body {
+.fpbody {
     background-color: rgb(238, 238, 238);
     justify-content: center;
     display: flex;
@@ -213,13 +213,24 @@ body {
     opacity: 0;
 }
 
+/* Game 1 */
+/* Game 1 */
+/* Game 1 */
+/* Game 1 */
 
-/* testing hover class
+#game1body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    justify-content: center;
+    font-size: 14px;
+}
 
-.fp-gamebox:hover {
-    border-radius: 90% 50% / 16% 90%;
-    color: yellow;
-}'
+.g1ageofearth {
+    display: flex;
+}
 
-*/
-
+.g1techlevel {
+    display: flex;
+}
