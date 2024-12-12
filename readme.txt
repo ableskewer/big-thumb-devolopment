@@ -4,13 +4,25 @@ python3 -m http.server  //for liveserver preview
 
 g1 techlevels:
 
+
 tupperware
-facebook 
+flow tv
+automatic transmission
+rockets
+internet
+cellphones
+facebook
 doomscrolling
 tailor swift
-influencer
+age of influencer
 trump
 electric cars
+quantum computers
+starship
+starship 1
+starship 2
+starship 3
+starship 4
 
 
 

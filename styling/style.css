@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Inter, sans-serif;
 }
 
 @font-face {
@@ -227,6 +226,8 @@ a {
     font-size: 14px;
 }
 
+/*age counter*/
+
 .g1ageofearth {
     display: flex;
 }
@@ -234,3 +235,62 @@ a {
 .g1techlevel {
     display: flex;
 }
+
+/*tech level*/
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: none;
+}
+
+li.visible {
+    display: list-item;
+}
+
+#techpoints {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spendtechpoints {
+    display: flex;
+}
+
+/*header*/
+.g1header {
+    display: flex;
+    background-color: black;
+}
+
+.headername {
+    color: white;
+}
+
+.blinkkontrol {
+    color: red;
+}
+
+.dateandtime {
+    color: yellow;
+    justify-content: space-between;
+}
+
+#g1redbox {
+    color: red;
+}
+
+#g1greenbox {
+    color: green;
+}
+
+#g1bluebox {
+    color: blue;
+}
+
+
+
+
+

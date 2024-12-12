@@ -1,3 +1,11 @@
+// Ensure the first item is visible on page load
+window.onload = () => {
+  if (listItems.length > 0) {
+      listItems[0].classList.add('visible'); // Add 'visible' class to first item
+  }
+};
+
+
 //age of earth increasing
 //age of earth increasing
 //age of earth increasing
@@ -41,5 +49,28 @@ if (!history.state) {
   history.replaceState({ counter: counter }, ""); // Store the initial state
 }
 
-// Update the counter every 500 milliseconds
 setInterval(updateCounter, 500);
+
+// spending tech points button, upgrade
+
+let currentIndex = 0; // Keeps track of the currently visible item
+        const listItems = document.querySelectorAll('#techlist li');
+
+
+        
+        function showNext() {
+          // Check if the current item is the last one
+          if (currentIndex < listItems.length - 1) {
+              // Remove the "visible" class from the current item
+              listItems[currentIndex].classList.remove('visible');
+      
+              // Move to the next item
+              currentIndex++;
+      
+              // Add the "visible" class to the next item
+              listItems[currentIndex].classList.add('visible');
+          } else {
+              // Disable the button when the last item is reached
+              document.querySelector('button').disabled = true;
+          }
+      }

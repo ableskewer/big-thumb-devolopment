@@ -7,8 +7,26 @@
 
     <link rel="stylesheet" href="styling/style.css"/>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=VT323&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body id="game1body">
+    <header class="g1header">
+        <div>
+            <p class="blinkkontrol">*2 or *1</p>
+        </div>
+        <div>
+            <p class="headername">Snekkersten</p>
+        </div>
+        <div>
+            <p class="dateandtime">date and time</p>
+            <p><i id="g1redbox" class="fa-solid fa-square"></i><i id="g1greenbox" class="fa-solid fa-square"></i><i id="g1bluebox" class="fa-solid fa-square"></i></p>
+        </div>
+    </header>
     <main>
         <div>
             <button>
@@ -22,8 +40,32 @@
         </div>
         <div class="g1techlevel">
             <p>tech level:&nbsp</p>
-            <p>tupperware</p>
-
+            <ul id="techlist">
+                <li>Tupperware</li>
+                <li>Flow TV</li>
+                <li>Automatic transmission</li>
+                <li>Rockets</li>
+                <li>Internet</li>
+                <li>Cellphones</li>
+                <li>Facebook</li>
+                <li>Doomscrolling</li>
+                <li>Tailor Swift</li>
+                <li>Age of influencer</li>
+                <li>Trump</li>
+                <li>Electric cars</li>
+                <li>Quantum computers</li>
+                <li>Starship</li>
+                <li>Starship 1</li>
+                <li>Starship 2</li>
+                <li>Starship 3</li>
+                <li>Starship 4</li>
+            </ul>
+        </div>
+        <div class="spendtechpoints">
+            <p>tech points:&nbsp</p>
+            <p id="techpoints">0</p>
+            <p>&nbsp&nbsp</p>
+            <button onclick="showNext()">spend</button>
         </div>
     </main>
 
